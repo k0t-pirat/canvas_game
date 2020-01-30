@@ -12,6 +12,7 @@ const ctx = canvas.getContext('2d');
 ctx.beginPath();
 ctx.arc(CENTER_X, CENTER_Y, RADIUS, START_ANGLE, END_ANGLE);
 ctx.stroke();
+ctx.translate(50, 50);
 
 ctx.beginPath();
 ctx.arc(CENTER_X + CENTER_X / 6, CENTER_Y - CENTER_Y / 6, RADIUS / 4, START_ANGLE, END_ANGLE);
